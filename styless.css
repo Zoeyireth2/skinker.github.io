@@ -1,0 +1,100 @@
+*{
+    margin:0px;
+    padding:0%;
+}
+body{
+    background-color: aqua;
+    color: black;
+}
+#contenedor{
+    width: 960px;;  
+    margin: auto;
+    margin-top: 20px;   
+margin-bottom:20px;
+border: radius 20px; 
+}
+
+.container-h1 h1{
+    color: #ffffff;
+    background-color: violet;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+h4{
+    color: rgb(221, 70, 95);
+    size: 33px;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    margin-top: -30px;
+}
+
+nav .menup{
+    list-style:none;
+    padding: 0%;
+    width: 100px;       
+    margin: auto;
+    display: flex;
+    margin: 15px;
+
+}
+.menup li a{
+    text-decoration: none;
+    color: #000000;
+    padding:20px;
+    display: block;
+}
+.menup li{
+    display: inline-block;
+    text-align: center;
+}
+.menup li a:hover{
+    background:#000000;
+    color: white;
+
+}
+.aja{
+    color: red;
+    size: 40px;
+}
+
+#contenido p{
+    font-size:25px;
+    height:100px;
+    padding:10px ;
+}
+aside{
+    width:250px;
+    height: 472px;
+    background:white;
+    position: absolute;
+    top: 210px;
+    right: 170px;
+}
+aside img{
+    font: size 20px;
+    text-align: center;
+    height: 190px;
+    margin-top:100px;
+    width: 250px;
+}
+footer{
+    background: #000000;
+    clear: both;
+}
+footer h6{
+    font-size:30px;
+    text-align: left;
+    padding: 20px;
+    font-style: italic;
+    color: aliceblue;
+}
+.hello{
+    color: blue;
+}
+.qsy{
+    color: #000000;
+    size: 35px;
+}
+        
